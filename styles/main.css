@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+header { 
+    background: url(../images/background.jpg) center / cover;
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    margin-left: 40px;
+    margin-top: 40px; 
+    width: 100%;
+    position: relative;
+}
+
+
+
+  ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    transition: 0.2s;
+  }
+
+  ul li:nth-child(odd) {
+    background: white;
+  }
+
